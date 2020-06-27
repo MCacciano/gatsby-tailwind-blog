@@ -1,26 +1,15 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import Layout from '../components/layout';
-import Image from '../components/image';
-import SEO from '../components/seo';
+import Layout from '../components/Layout';
+import SEO from '../components/Seo';
+import PostsList from '../components/PostsList';
 
 const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" />
-      <ul>
-        {data.posts.edges.map(({ node }) => {
-          const { title, description, date } = node.frontmatter;
-          return (
-            <li key={title} className="mb-4">
-              <h2 className="text-2xl font-semibold">{title}</h2>
-              <h3>{date}</h3>
-              <p>{description}</p>
-            </li>
-          );
-        })}
-      </ul>
+      <PostsList posts={data.posts} />
     </Layout>
   );
 };
