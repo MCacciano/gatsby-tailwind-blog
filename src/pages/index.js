@@ -1,8 +1,8 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import Layout from '../components/Layout';
-import SEO from '../components/Seo';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 import PostsList from '../components/PostsList';
 
 const IndexPage = ({ data }) => {

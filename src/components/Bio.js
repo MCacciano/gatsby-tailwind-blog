@@ -1,6 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Image from './Image';
+import Image from './image';
 
 const Bio = () => {
   const occupations = ['Web Developer', 'Content Creator'];
