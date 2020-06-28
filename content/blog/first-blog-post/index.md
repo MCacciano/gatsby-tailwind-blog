@@ -1,6 +1,7 @@
 ---
 title: First Blog Post
 date: '6/24/2020'
+featuredImage: macbook-on-desk.jpg
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore vitae commodi necessitatibus sequi deserunt assumenda in beatae vel odio nihil!
 ---
 

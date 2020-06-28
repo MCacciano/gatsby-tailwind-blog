@@ -1,6 +1,7 @@
 ---
 title: Second Blog Post
 date: '6/25/2020'
+featuredImage: macbook-party.jpg
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore vitae commodi necessitatibus sequi deserunt assumenda in beatae vel odio nihil!
 ---
 
