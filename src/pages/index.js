@@ -24,6 +24,9 @@ export const pageQuery = graphql`
             description
             date
           }
+          fields {
+            slug
+          }
         }
       }
     }
